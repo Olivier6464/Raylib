@@ -1,0 +1,11 @@
+.{
+    .name = .mon_projet,
+    .version = "0.1.0",
+    .fingerprint = 0xb562bf1e4f0ee74d, // N'importe quel chiffre
+    .dependencies = .{
+        .raylib = .{
+            .path = "raylib", // On dit à Zig : la lib est dans ce dossier local
+        },
+    },
+    .paths = .{""},
+}
